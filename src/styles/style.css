@@ -22,7 +22,8 @@
     perspective: 1000px;
 }
 
-.flip-card:hover .flip-card-inner {
+.flip-card:hover .flip-card-inner,
+.flip-card:focus-within .flip-card-inner{
     transform: rotateY(180deg); 
 }
 
